@@ -1,7 +1,7 @@
 import discord
 import functions.commands as commands
 
-bot_token = 'TOKEN BOT'
+bot_token = 'MTA2NjM2MDgzOTI1MjIzNDMxMA.Gu5_Xt.uY_TX4KUFVESwPD6YUIksEfOS7MpuR9guDzQZs'
 prefix = '$'
 
 class MyClient(discord.Client):
