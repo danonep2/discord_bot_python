@@ -11,8 +11,26 @@
   <p>- Comando de ajuda em um comando especifico</p>
   <img src="./img/img03.jpg" width="500px"/>
 </div>
-<div>
+
 <h2>Como utilizá lo:</h2>
-  1. Crie o usuário do seu bot no [Potal de desenvolvedor](https://discord.com/developers/applications) (Site do proprio discord) e ative as seguintes opções
+
+1. Crie o usuário do seu bot no [Potal de desenvolvedor do discord](https://discord.com/developers/applications/) e ative as seguintes opções
+  
   <img src="./img/img04.jpg" width="500px"/>
-</div>
+  
+2. Na parte de URL Generator crie um link para adcionar o seu bot no servidor 
+
+3. Clone o repositorio
+  
+```bash
+git clone https://github.com/danonep2/discord_bot_python.git
+```
+  
+4. Instalando dependencias do Python[
+
+````bash
+pip install discord
+````
+
+5. 
+
