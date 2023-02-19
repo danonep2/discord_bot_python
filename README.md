@@ -94,6 +94,6 @@ async def run(message,parametros,command):
 ## Links 🔗
 
 * Discord API: [documentação](https://discordpy.readthedocs.io/en/stable/intro.html)
-* Portal de desenvolvedor Discord: [portal](discord.com/developers/applications)
+* Portal de desenvolvedor Discord: [portal](https://discord.com/developers/applications/)
 * Contato: [Telegram](http://t.me/danonep2) 📧
 
