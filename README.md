@@ -1,6 +1,6 @@
 <h1 align="center"> Bot em Python para o Discord 🤖</h1>
 
-## Índices
+## Índices 🗂
 
 * [Sobre](#sobre-o-bot-)
 * [Screenshots](#screenshots-)
