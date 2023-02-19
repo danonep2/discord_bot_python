@@ -1,5 +1,13 @@
 <h1 align="center"> Bot em Python para o Discord</h1>
 
+## Índices
+
+* [Sobre](#sobre-o-bot-)
+* [Screenshots](#screenshots-)
+* [Como utiliza lo](#como-utilizá-lo-)
+* [Adicionando novos comandos / Ajustes](#adicionando-novos-comandos--ajustes-)
+* [Links](#links-)
+
 ## Sobre o Bot ☄
 Modelo de bot com algumas funções prontas
 
