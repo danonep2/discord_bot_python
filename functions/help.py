@@ -1,8 +1,8 @@
 from discord import Embed, Colour
 
 commandsList = [
-    'help',
-    'random',
+    'help', 'h',
+    'random', 'r',
     'calc'
 ]
 

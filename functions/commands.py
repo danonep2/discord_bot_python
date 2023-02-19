@@ -1,12 +1,6 @@
 import random
 from discord import Embed, Colour
-from functions.help import helperCommands
-
-commandsList = [
-    'help', 'h',
-    'random', 'r',
-    'calc'
-]
+from functions.help import helperCommands, commandsList
 
 async def randomF(start, end, channel):
     print(start, end)
@@ -55,22 +49,23 @@ async def calc(expressao):
 ⠀⠀⠀⠀⠀⠀⠀⠹⣿⣿⣿⣿⣦⣤⣤⣤⣤⣾⣿⣿⣿⣿⣿⣿⣿⣿⡟⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠻⢿⣿⣿⣿⣿⣿⣿⠿⠋⠉⠛⠋⠉⠉⠁⠀⠀⠀⠀
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠉⠉'''
-
 async def foundCommand(message):
     parametros = message.content[1:].split()
-    print(parametros)
+    comando = parametros[0]
+    print(comando)
 
-    if parametros[0] in commandsList:
-        print('found command')
-        command = parametros[0]
-
-    else:
+    if not (comando in commandsList):
         await message.channel.send(embed=Embed(
                 title = '',
                 description ='Comando não encontrado. Tente $help para ver a lista de comandos.',
                 colour = Colour.red()))
         return
+    
+    print('found command')
+    await run(message, parametros,comando)
 
+
+async def run(message,parametros,command):
     ################# Help #################
     if command == 'help' or command == 'h':
         await helperCommands(parametros, message)
