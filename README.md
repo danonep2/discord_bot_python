@@ -95,5 +95,5 @@ async def run(message,parametros,command):
 
 * Discord API: [documentação](https://discordpy.readthedocs.io/en/stable/intro.html)
 * Portal de desenvolvedor Discord: [portal](discord.com/developers/applications)
-* Contato: [Telegram](http://t.me/danonep2)
+* Contato: [Telegram](http://t.me/danonep2) 📧
 
