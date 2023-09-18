@@ -14,6 +14,7 @@
 
 ## Sobre o Bot ☄
 Modelo de bot com algumas funções prontas
+* Obs: Caso pretenda criar um bot de maneira mais profissional, recomendo ler a documentação e ultilizar as funções de evento para declarar os comandos. Este repositório é apenas uma forma de tutorial simples de como você faz os seus primeiros comandos começando da criação do bot no site do Discord até o codigo. Este modelo que fiz, foi apenas com intuito de conhecer a bibliotéca.
 
 ## Screenshots 💻
   
